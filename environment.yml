@@ -2,10 +2,9 @@ name: nb-playground
 channels:
   - conda-forge
 dependencies:
-  - python = 2.7
+  - python=2.7
   - numpy
-  - pip:
-    - nbgitpuller
-    - sphinx-gallery
-    - pandas
-    - matplotlib
+  - pandas
+  - matplotlib
+  - ipyvolume
+  - appmode
